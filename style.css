@@ -180,6 +180,21 @@ footer {
 }
 
 /* Media Queries para Responsividade */
+.social-links {
+    margin-top: 1rem;
+  }
+  
+  .social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #eee;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .social-links a:hover {
+    color: #c89116; /* Combina com seu gradiente */
+  }
 
 /* Para tablets */
 @media (max-width: 768px) {
